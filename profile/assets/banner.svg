@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" role="img" aria-label="Agent Etna — the staging environment for AI agents">
+  <style>
+    @keyframes flick { 0%,100% { opacity: 1; } 50% { opacity: .2; } }
+    @keyframes breathe { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    @keyframes rise {
+      0% { opacity: 0; transform: translateY(0); }
+      12% { opacity: 1; }
+      70% { opacity: 1; }
+      100% { opacity: 0; transform: translateY(-4px); }
+    }
+    .sp1 { animation: flick 2.1s steps(2, jump-none) infinite; }
+    .sp2 { animation: flick 2.7s steps(2, jump-none) infinite .6s; }
+    .sp3 { animation: flick 1.9s steps(2, jump-none) infinite 1.1s; }
+    .glow { animation: breathe 5s ease-in-out infinite; }
+    .em1 { animation: rise 3.4s steps(5) infinite; }
+    .em2 { animation: rise 3.4s steps(5) infinite 1.7s; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <clipPath id="frame"><rect x="0" y="0" width="1280" height="400" rx="18"/></clipPath>
+    <radialGradient id="glowg" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D9A24A" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#D9A24A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="400" fill="#06070A"/>
+    <ellipse cx="180" cy="40" rx="520" ry="300" fill="#7D95BC" opacity="0.045"/>
+    <ellipse class="glow" cx="1010" cy="180" rx="230" ry="150" fill="url(#glowg)"/>
+    <g transform="translate(823 180) scale(22)" shape-rendering="crispEdges">
+      <g fill="#7D95BC">
+        <rect x="5" y="3" width="2" height="1"/><rect x="9" y="3" width="2" height="1"/>
+        <rect x="4" y="4" width="3" height="1"/><rect x="9" y="4" width="3" height="1"/>
+        <rect x="3" y="5" width="5" height="1"/><rect x="10" y="5" width="3" height="1"/>
+        <rect x="2" y="6" width="7" height="1"/><rect x="10" y="6" width="4" height="1"/>
+        <rect x="1" y="7" width="14" height="1"/><rect x="1" y="8" width="14" height="1"/>
+        <rect x="0" y="9" width="17" height="1"/>
+      </g>
+      <g fill="#D9A24A">
+        <rect x="5" y="2" width="1" height="1"/><rect x="9" y="2" width="1" height="1"/>
+        <rect x="7" y="3" width="2" height="1"/><rect x="7" y="4" width="2" height="1"/>
+        <rect x="8" y="5" width="2" height="1"/><rect x="9" y="6" width="1" height="1"/>
+      </g>
+      <g fill="#E6C58A">
+        <rect class="sp1" x="6" y="0" width="1" height="1"/>
+        <rect class="sp2" x="10" y="0" width="1" height="1"/>
+        <rect class="sp3" x="7" y="1" width="1" height="1"/>
+        <rect x="8" y="2" width="1" height="1"/>
+        <rect class="em1" x="7" y="-1" width="1" height="1"/>
+        <rect class="em2" x="9" y="-2" width="1" height="1"/>
+      </g>
+      <g fill="#1A1B1F">
+        <rect x="4" y="7" width="1" height="1"/><rect x="11" y="7" width="1" height="1"/>
+      </g>
+    </g>
+    <text x="84" y="196" font-family="Georgia,'Times New Roman',serif" font-size="74" letter-spacing="-1" fill="#D8DBE0">Agent Etna</text>
+    <text x="86" y="248" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="19" letter-spacing="0.4" fill="#A3A7B3">The staging environment for AI agents.</text>
+    <rect x="0.5" y="0.5" width="1279" height="399" rx="18" fill="none" stroke="#14161B" stroke-width="1"/>
+  </g>
+</svg>
