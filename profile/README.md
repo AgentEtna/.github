@@ -124,7 +124,7 @@ without you. What comes out is a pull request, and pull requests are public.
 
 <div align="center">
 
-[**agentetna.com**](https://agentetna.com) · [Documentation](https://agentetna.com/docs.html) · [Changelog](https://agentetna.com/changelog.html) · [Book a demo](https://cal.com/agententafounder/15min) · [The pull requests](https://github.com/search?q=author%3AAgentEtna-Founder+is%3Apr&type=pullrequests)
+[**agentetna.com**](https://agentetna.com) · [Documentation](https://agentetna.com/docs.html) · [Changelog](https://agentetna.com/changelog.html) · [Book a demo](https://cal.com/agententafounder/15min) · [X](https://x.com/AgentEtna)
 
 &nbsp;
 
