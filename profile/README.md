@@ -138,6 +138,7 @@ without you. What comes out is a pull request, and pull requests are public.
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AgentEtna/.github/main/profile/assets/wordmark-dark.svg">
   <img src="https://raw.githubusercontent.com/AgentEtna/.github/main/profile/assets/wordmark-light.svg" alt="Agent Etna" width="200">
 </picture>
-<sub>The staging environment for AI agents.</sub>
+<sub>
+     The staging environment for AI agents.</sub>
 
 </div>
