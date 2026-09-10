@@ -134,11 +134,10 @@ without you. What comes out is a pull request, and pull requests are public.
      in the product repo). One path in two inks: the ink follows GitHub's
      theme the way the app's own text follows its palette; nothing else about
      the mark changes. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.svg">
-  <img src="assets/wordmark-light.svg" alt="Agent Etna" width="200">
 </picture>
-
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AgentEtna/.github/main/profile/assets/wordmark-dark.svg">
+  <img src="https://raw.githubusercontent.com/AgentEtna/.github/main/profile/assets/wordmark-light.svg" alt="Agent Etna" width="200">
+</picture>
 <sub>The staging environment for AI agents.</sub>
 
 </div>
