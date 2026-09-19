@@ -17,6 +17,8 @@ is no branch to deploy to, nothing to run the change against, and no list of
 what the agent was already getting right — so the safest move becomes not
 touching it, and known bugs ship forever.
 
+**Agents fail in the harness** (boot, tools, memory, loop, guardrails), not the model. Staging is where you see that on a real repository, before a user does.
+
 Agent Etna is that missing step. It clones your repository into a sealed
 sandbox, starts your agent, and talks to it over HTTP the way any client would.
 It writes the scenarios itself from what it finds in the code — the entry point,
